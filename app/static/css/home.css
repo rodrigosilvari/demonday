@@ -1,0 +1,131 @@
+        body {
+            background-image: url("../img/fundo.jpg");
+            margin: 0;
+            display: grid;
+            grid-template: 'nav' 'header' 'section' 'footer';
+            grid-template-rows: 12vh 500px 60vh 15vh;
+        }
+        /* apenas a parte do logo e nome do site */
+        
+        nav {
+            align-items: center;
+            background-color: #7a1415;
+            display: flex;
+            justify-content: space-around;
+            height: 100px;
+            padding: 10px;
+        }
+        
+        .logoSite {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 100px;
+            width: 100%;
+        }
+        
+        .divnav {
+            display: flex;
+            height: 50%;
+            width: 50%;
+            justify-content: space-between;
+        }
+        
+        nav .logoImg a {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: auto;
+            width: auto;
+            text-decoration: none;
+            margin-left: 60px;
+        }
+        /* logo do site */
+        
+        nav img {
+            height: auto;
+            width: 130px;
+        }
+        /* título */
+        
+        nav h1 {
+            text-align: center;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        /* links de receita e saiba mais */
+        
+        .divLinks {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 30%;
+        }
+        
+        .divLinks a {
+            text-decoration: none;
+            text-align: center;
+            font-family: 'Libre Caslon Text', serif;
+            color: white;
+            font-size: 22px;
+            cursor: pointer;
+        }
+        /* login e cadastro */
+        
+        .loginCadastro {
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            width: 35%;
+        }
+        
+        .loginCadastro a {
+            text-decoration: none;
+            text-align: center;
+            font-family: 'Libre Caslon Text', serif;
+            color: white;
+            font-size: 22px;
+            cursor: pointer;
+        }
+        
+        .loginCadastro span {
+            text-decoration: none;
+            font-family: 'Sanchez', serif;
+            color: white;
+            font-size: 22pt;
+        }
+        /* imagem de fundo do site */
+        
+        header {
+            grid-area: header;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../img/background.jpg!d);
+        }
+        
+        section {
+            display: flex;
+            margin: 5px;
+        }
+        
+        .sugestao1 {
+            margin: 5px;
+            color: #00000085;
+            background-color: #dfc9b4;
+        }
+        
+        .sugestao2 {
+            margin: 5px;
+            color: #00000085;
+            background-color: #dfc9b4;
+        }
+        
+        .sugestao3 {
+            margin: 5px;
+            color: #00000085;
+            background-color: #dfc9b4;
+        }
+        
+        footer {
+            background-color: black;
+        }

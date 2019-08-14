@@ -1,0 +1,75 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sanchez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Niconne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/img/logo.png'">
+    <title>Sua Receita</title>
+</head>
+
+<body>
+    <nav id="logoSite">
+        <div class="logoImg">
+            <a class="logo" href="#header">
+                <img src="{% static 'img/logo1.jpg' %}" alt="logo">
+            </a>
+        </div>
+        <div class="divnav">
+            <div class="divLinks">
+                <div>
+                    <a href="/sobre">Sobre nós</a>
+                </div>
+                <div>
+                    <a href="/receitas">Receitas</a>
+                </div>
+            </div>
+            <div class="loginCadastro">
+                <div>
+                    <a href="/login">Entrar</a>
+                </div>
+                <div>
+                    <a href="/cadastro">Cadastre-se</a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <header>
+
+    </header>
+    <section>
+        <div class="sugestao1">
+            <a class="teste" href=""><img src="{% static 'img/torta_holandesa 1.jpg' %}" alt=""></a>
+            <h2>Torta com borda de Biscoito CALIPSO®, <br> recheio de Sorvete de Creme NESTLÉ® <br> e cobertura de Chocolate NESTLÉ CLASSIC® <br> Meio Amargo e Creme de Leite NESTLÉ®</h2>
+        </div>
+        <div class="sugestao2">
+            <a href=""><img src="{% static 'img/Carne-cozida 1.jpg' %}" alt=""></a>
+            <h2>Um cozido da cozinha oriental para <br> você experimentar. Muito saboroso!</h2>
+        </div>
+        <div class="sugestao3">
+            <a href=""><img src="{% static 'img/torta-de-morango 1.jpg' %}" alt=""></a>
+            <h2>Torta de Morango com Chocolate <br> e Frutas Vermelhas</h2>
+        </div>
+    </section>
+    <footer>
+        <div class="RodaPe">
+            <div class="contatos">
+                <a href=""><img src="{% static 'img/facebook.png' %}" alt=""></a>
+                <a href=""><img src="{% static 'img/instagram.png' %}" alt=""></a>
+                <a href=""><img src="{% static 'img/twitter.png' %}" alt=""></a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
